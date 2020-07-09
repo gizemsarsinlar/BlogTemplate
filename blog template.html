@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+    <link rel="shortcut icon" type="image/png" href="./subtitles/assets/favicon.ico"/>
     <title>Blog</title>
     
     <style>
@@ -14,6 +14,7 @@
         
         .jumbotron{
             padding-top: 100px;
+            opacity: 0.7;
         }
         
         header{
@@ -24,12 +25,9 @@
 </head>
 <body>
    
-   <nav class="navbar bg-dark navbar-expand-sm navbar-dark fixed top">
+   <nav class="navbar bg-info navbar-expand-sm navbar-dark fixed top">
       <div class="container">
-       <a href="/" class="navbar-brand">
-       <i class="fab fa-blogger-b"></i>&nbsp;Blog template
-       </a>
-       
+    
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
            <span class="navbar-toggler-icon"></span>
        </button>
@@ -39,12 +37,6 @@
            <li class="nav-item">
                <a href="#" class="nav-link">
                    Home
-               </a>
-           </li>
-           
-           <li class="nav-item">
-               <a href="#" class="nav-link">
-                   About
                </a>
            </li>
            
@@ -60,7 +52,7 @@
    </nav>
    
    <header>
-       <div class="jumbotron bg-dark text-white">
+       <div class="jumbotron bg-info text-white">
           <div class="container">
            <div class="col-md-6 px-0">
                <h1 class="display-4 font-italic">Gizem Sarsınlar</h1>
@@ -69,9 +61,6 @@
                    Sadece aklımdan geçenler..
                </p>
                
-               <p class="lead mb-0">
-                   <a href="#" class="text-white font-weight-bold">Continue Reading...</a> 
-               </p>
            </div>
            </div>
        </div>
@@ -80,10 +69,10 @@
    <main>
        <div class="container">
            <div class="row">
-               <div class="col-md-8">
+               <div class="col-md-12">
                   
                    <div class="card mb-4">
-                       <img src="C:\Users\GİZEM\Desktop\website\Blog\2020\hack4artt.jpg" class="card-img-top img-thumbnail">
+                       <center><img style="width:340px; height:300px;" src="./subtitles/assets/2020/hack4artt.jpg" class="card-img-top img-thumbnail"></center>
                        <div class="card-body">
                           
                            <h4 style="font-family: calibri" class="card-title"><i>"Printf (Hello "2020");</i></h4>
@@ -94,14 +83,14 @@
                                 Aslında çok da iyi başlamayan ama sonrasında güzel devam eden bir seneye başlamıştım. İnsan ne yaşarsa yaşasın yanında gerçekten güvendiği ve değer gördüğü insanlar olduğu sürece her şeyin üstesinden gelebiliyor. Ve yaptığı her şey onlarla keyifli hale geliyor.
                            </p>
                            
-                           <button type="button" onclick="location.href='subtitles/printf2020.html'" class="btn btn-primary">Read More</button>
+                           <button type="button" onclick="location.href='subtitles/printf2020.html'" class="btn btn-info">Read More</button>
                            
                        </div>
                        <div class="card-footer text-muted">29 December 2019</div>
                    </div>
                    
                    <div class="card mb-4">
-                       <img style="width:300px; height:300px;" src="C:\Users\GİZEM\Desktop\website\Blog\redmiairdots\redmiairdots.png" class="card-img-top img-thumbnail">
+                       <center><img style="width:300px; height:300px;" src="./subtitles/assets/redmiairdots/redmiairdots.png" class="card-img-top img-thumbnail"></center>
                        <div class="card-body">
                           
                            <h4 style="font-family: calibri" class="card-title"><i>Redmi Airdots TWS İncelemesi</i></h4>
@@ -110,7 +99,7 @@
                                Merhabalarr :) Uzun süredir fiyat/performans ürünü bir bluetooth kulaklık arayışındaydım. Benim gibi bu arayışta olanlara yardımcı olur diye aldığım ve memnun kaldığım ürünü sizlerle de paylaşmak istedim.
                            </p>
                            
-                           <button type="button" onClick="location.href='subtitles/redmiairdots.html'" class="btn btn-primary">Read More</button>
+                           <button type="button" onClick="location.href='subtitles/redmiairdots.html'" class="btn btn-info">Read More</button>
                            
                        </div>
                        <div class="card-footer text-muted">22 September 2019</div>
@@ -125,14 +114,14 @@
                                Yaz tatilinin vazgeçilmezleri tabi ki diziler... Ben kendime bir liste yaptım bile, sizlerle de izlemenizi tavsiye ettiklerimi kısaca konularına değinerek paylaşmak istedim. Keyifle izlemeniz dileğiyle, hepinize iyi tatiller :)
                            </p>
                            
-                           <button type="button" onClick="location.href='subtitles/series.html'" class="btn btn-primary">Read More</button>
+                           <button type="button" onClick="location.href='subtitles/series.html'" class="btn btn-info">Read More</button>
                            
                        </div>
                        <div class="card-footer text-muted">3 July 2019</div>
                    </div>
                    
                    <div class="card mb-4">
-                       <img style="width:350px; height:300px;" src="C:\Users\GİZEM\Desktop\website\Blog\alacati\cesme.jpg" class="card-img-top img-thumbnail">
+                       <center><img style="width:350px; height:300px;" src="./subtitles/assets/alacati/cesme.jpg" class="card-img-top img-thumbnail"></center>
                        <div class="card-body">
                           
                            <h4 style="font-family: calibri" class="card-title"><i>Çeşme'de Keyifli Zamanlar</i></h4>
@@ -141,66 +130,52 @@
                                Uzun bir aradan sonra hepinize merhabalar. Bu yayında boş zaman aktivitelerimden bahsetmek istiyorum :) Yapmayı en çok sevdiğim şey yeni yerler gezip görmek.. Bu yazımda Çeşme'de gezip gördüğüm yerleri anlatmak istiyorum.
                            </p>
                            
-                           <button type="button" onClick="location.href='subtitles/cesme.html'" class="btn btn-primary">Read More</button>
+                           <button type="button" onClick="location.href='subtitles/cesme.html'" class="btn btn-info">Read More</button>
                            
                        </div>
                        <div class="card-footer text-muted">31 May 2019</div>
                    </div>
-               </div>
-               
-               <div class="col-md-4">
+                   
                    <div class="card mb-4">
-                       <div class="card-header">
-                           <h5>Search</h5>
-                       </div>
                        <div class="card-body">
-                           <div class="input-group">
-                               <input type="text" class="form-control" placeholder="Search for...">
-                               <span class="input-group-btn">
-                                   <button type="button" class="btn btn-secondary">
-                                   Go!
-                                   </button>
-                               </span>
-                           </div>
+                          
+                           <h4 style="font-family: calibri" class="card-title"><i>Etkinliklere, Makalelere ve Seminerlere Nasıl Ulaşıyorum?</i></h4>
+                           
+                           <p class="card-text">
+                               Bugün sizlere kendimi çeşitli alanlarda geliştirmek için takip ettiğim site ve uygulamalardan bahsetmek istiyorum. Öncelikle belirtmeliyim ki içerikler elektrik, elektronik ve yazılımın yanında sosyal içeriklere de sahip.
+                           </p>
+                           
+                           <button type="button" onClick="location.href='subtitles/etkinlik-makale.html'" class="btn btn-info">Read More</button>
+                           
                        </div>
+                       <div class="card-footer text-muted">04 April 2019</div>
                    </div>
                    
                    <div class="card mb-4">
-                       <div class="card-header">
-                           <h5>Categories</h5>
-                       </div>
+                      <center><img style="width:300px; height:300px;" src="./subtitles/assets/ehm/tesla.jpg"></center>
                        <div class="card-body">
-                           <div class="row">
-                               <div class="col">
-                                   <ul class="list-unstyled">
-                                       <li>
-                                           <a href="https://www.linkedin.com/in/gizemsarsinlar/">Lİnkedin</a>
-                                       </li>
-                                   </ul>
-                               </div>
-                               <div class="col">
-                                   <ul class="list-unstyled">
-                                       <li>
-                                           <a href="mailto:gizem.18srsnlr@gmail.com">Mail</a>
-                                       </li>
-                                   </ul>
-                               </div>
-                               <div class="col">
-                                   <ul class="list-unstyled">
-                                       <li>
-                                           <a href="https://github.com/gizemsarsinlar">Github</a>
-                                       </li>
-                                   </ul>
-                               </div>
-                           </div>
+                          
+                           <h4 style="font-family: calibri" class="card-title">
+                           <i>Neden Elektronik ve Haberleşme? Neden İyte?</i></h4>
+                           
+                           <p class="card-text">
+                              Aslında 9. sınıfla beraber başlayan bir süreçti bu benim için. Fizik hocam olan Nadir Hoca ile keşfettim fizik dersine olan ilgimi. Sadece derslerle sınırlı kalmadan saatlerce bu alanda konuşmak, ortaya atılan teoriler hakkında tartışmak bana çok keyif veriyordu. 
+                           </p>
+                           
+                           <button type="button" onClick="location.href='subtitles/ehm.html'" class="btn btn-info">Read More</button>
+                           
                        </div>
+                       <div class="card-footer text-muted">27 March 2019</div>
                    </div>
+                   
                </div>
+               
+               
            </div>
        </div>
    </main>
    
-   <footer class="py-5 bg-dark text-white text-center">
+   <footer class="py-5 bg-info text-white text-center">
        Copyright ©  2020
    </footer>
     
@@ -212,4 +187,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </html>
